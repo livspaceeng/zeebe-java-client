@@ -16,3 +16,8 @@ To create BPMN workflows, please download [zeebe-modeler](https://github.com/zee
 Just navigate to `http://localhost:8082/` on your browser, and you would be able to see your Active/Deployed workflows.
 
 Now, you can run your application and connect to localhost to deploy and run workflows! Enjoy!
+
+## Other Clients
+- [Go client](https://github.com/zeebe-io/zeebe/tree/master/clients/go)
+- [Python client](https://pypi.org/project/zeebe-grpc/) : Community edition
+- [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js) : Community edition

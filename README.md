@@ -8,8 +8,8 @@ To create BPMN workflows, please download [zeebe-modeler](https://github.com/zee
 
 ## Setting up Zeebe broker on local machine:
 - Prerequisites:
-1. [Docker](https://docs.docker.com/install/)
-2. [Docker Compose](https://docs.docker.com/compose/install/)
+  + [Docker](https://docs.docker.com/install/)
+  + [Docker Compose](https://docs.docker.com/compose/install/)
 - Run the following command from terminal or shell (from the current directory): `> docker-compose up`. It will pickup the [docker-compose.yml](./docker-compose.yml) present in the current directory.
 
 ## Simple Monitor View

@@ -4,4 +4,4 @@
  *
  * @author Ankit Agrawal
  */
-package com.livspace.zeebe.sampletemplates;
+package com.livspace.zeebe.javaclient.sampletemplates;

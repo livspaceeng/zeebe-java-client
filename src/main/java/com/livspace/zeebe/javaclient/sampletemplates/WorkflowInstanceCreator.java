@@ -1,4 +1,4 @@
-package com.livspace.zeebe.sampletemplates;
+package com.livspace.zeebe.javaclient.sampletemplates;
 
 import io.zeebe.client.ZeebeClient;
 import io.zeebe.client.ZeebeClientBuilder;
@@ -9,7 +9,7 @@ public class WorkflowInstanceCreator {
   public static void main(final String[] args) {
     final String broker = "127.0.0.1:26500";
 
-    final String bpmnProcessId = "order-process";
+    final String bpmnProcessId = "fms-backend.async-pdf-generation";
 
     final ZeebeClientBuilder builder =
         ZeebeClient.newClientBuilder().brokerContactPoint(broker).usePlaintext();
@@ -17,7 +17,6 @@ public class WorkflowInstanceCreator {
     try (ZeebeClient client = builder.build()) {
 
       System.out.println("Creating workflow instance");
-
       final WorkflowInstanceEvent workflowInstanceEvent =
           client
               .newCreateInstanceCommand()

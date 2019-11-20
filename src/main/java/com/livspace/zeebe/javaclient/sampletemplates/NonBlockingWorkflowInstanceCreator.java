@@ -1,4 +1,4 @@
-package com.livspace.zeebe.sampletemplates;
+package com.livspace.zeebe.javaclient.sampletemplates;
 
 import io.zeebe.client.ZeebeClient;
 import io.zeebe.client.ZeebeClientBuilder;

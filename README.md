@@ -1,5 +1,5 @@
 # zeebe-java-client-starter
-Java Client example code to get started with Zeebe.
+Starter code to get started with Zeebe Java client.
 
 ## BPMN Modeler
 To create BPMN workflows, please download [zeebe-modeler](https://github.com/zeebe-io/zeebe-modeler/releases/tag/v0.7.0).

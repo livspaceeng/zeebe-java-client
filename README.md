@@ -1,4 +1,4 @@
-# zeebe-java-client
+# zeebe-java-client-starter
 Java Client example code to get started with Zeebe.
 
 ## BPMN Modeler

@@ -10,7 +10,7 @@ To create BPMN workflows, please download [zeebe-modeler](https://github.com/zee
 - Prerequisites:
   + [Docker](https://docs.docker.com/install/)
   + [Docker Compose](https://docs.docker.com/compose/install/)
-- Run the following command from terminal or shell (from the current directory): `> docker-compose up`. It will pickup the [docker-compose.yml](./docker-compose.yml) present in the current directory.
+- Clone this repo and run the following command from terminal or shell (from the cloned directory): `> docker-compose up`. It will pickup the [docker-compose.yml](./docker-compose.yml) present in the cloned directory.
 
 ## Simple Monitor View
 Just navigate to `http://localhost:8082/` on your browser, and you would be able to see your Active/Deployed workflows.

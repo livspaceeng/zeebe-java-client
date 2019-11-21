@@ -1,4 +1,4 @@
-package com.livspace.zeebe.javaclient;
+package com.livspace.zeebe.javaclientstarter;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ import io.zeebe.client.api.worker.JobWorker;
  * <p>This is a sample app code written only for testing purposes.
  * DO NOT USE THIS AS A TEMPLATE FOR WRITING PRODUCTION READY CODE.
  * For production-ready samples, please refer to: {@link
- * com.livspace.zeebe.javaclient.sampletemplates} package.
+ * com.livspace.zeebe.javaclientstarter.sampletemplates} package.
  */
 public class App {
 

@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.livspace.zeebe.javaclient</groupId>
-	<artifactId>zeebe-java-client</artifactId>
+	<groupId>com.livspace.zeebe.javaclientstarter</groupId>
+	<artifactId>zeebe-java-client-starter</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>zeebe-java-client</name>
@@ -59,7 +59,7 @@
 								<!-- add Main-Class to manifest file -->
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.livspace.zeebe.javaclient.App</mainClass>
+									<mainClass>com.livspace.zeebe.javaclientstarter.App</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

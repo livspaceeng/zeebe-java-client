@@ -2,9 +2,9 @@
 Starter code to get started with Zeebe Java client.
 
 ## BPMN Modeler
-To create BPMN workflows, please download [zeebe-modeler](https://github.com/zeebe-io/zeebe-modeler/releases/tag/v0.7.0).
-- **Mac users:** [zeebe-modeler-0.7.0-mac.dmg](https://github.com/zeebe-io/zeebe-modeler/releases/download/v0.7.0/zeebe-modeler-0.7.0-mac.dmg)
-- **Windows users:** [zeebe-modeler-0.7.0-win-x64.zip](https://github.com/zeebe-io/zeebe-modeler/releases/download/v0.7.0/zeebe-modeler-0.7.0-win-x64.zip)
+To create BPMN workflows, please download [zeebe-modeler](https://github.com/zeebe-io/zeebe-modeler/releases/tag/v0.8.0).
+- **Mac users:** [zeebe-modeler-0.7.0-mac.dmg](https://github.com/zeebe-io/zeebe-modeler/releases/download/v0.8.0/zeebe-modeler-0.8.0-mac.dmg)
+- **Windows users:** [zeebe-modeler-0.7.0-win-x64.zip](https://github.com/zeebe-io/zeebe-modeler/releases/download/v0.8.0/zeebe-modeler-0.8.0-win-x64.zip)
 
 ## Setting up Zeebe broker on local machine:
 - Prerequisites:

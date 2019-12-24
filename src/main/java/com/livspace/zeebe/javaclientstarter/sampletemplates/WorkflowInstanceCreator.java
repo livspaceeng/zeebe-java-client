@@ -9,7 +9,7 @@ public class WorkflowInstanceCreator {
   public static void main(final String[] args) {
     final String broker = "127.0.0.1:26500";
 
-    final String bpmnProcessId = "fms-backend.async-pdf-generation";
+    final String bpmnProcessId = "order-process";
 
     final ZeebeClientBuilder builder =
         ZeebeClient.newClientBuilder().brokerContactPoint(broker).usePlaintext();

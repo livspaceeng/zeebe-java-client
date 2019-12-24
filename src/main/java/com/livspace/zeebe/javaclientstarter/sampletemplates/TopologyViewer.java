@@ -7,7 +7,7 @@ import io.zeebe.client.api.response.Topology;
 public class TopologyViewer {
 
   public static void main(final String[] args) {
-    final String broker = "api.dev.livspace.com:8080/zeebe";
+    final String broker = "localhost:26500";
 
     final ZeebeClientBuilder builder =
         ZeebeClient.newClientBuilder().brokerContactPoint(broker).usePlaintext();
